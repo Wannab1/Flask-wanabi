@@ -1,0 +1,190 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+	
+
+}
+
+body{
+	
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	display: block;
+	
+	background-color:  #032758;
+}
+html, body{
+	min-height: 30vh;
+}
+
+	
+
+.containerr{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	margin-bottom: 40px;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	
+}
+
+.formul{
+
+	margin: 10px;
+	padding: 10px;
+	width: 310px;
+	height: 340px;
+	box-sizing: content-box;
+	border-radius: 5px;
+	color: white;
+	background-color:#2c404888;
+	
+
+	justify-content: center;
+}
+#formur{
+	margin: 10px;
+	padding: 10px;
+	width: 310px;
+	height: 400px;
+	box-sizing: content-box;
+	border-radius: 5px;
+	color: white;
+	background-color:#2c404888;
+}
+#formur button[type='submit']{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+	background-color: transparent;
+	width: 250px;
+	height: 40px;
+	outline:none;
+	border: none;
+	border-bottom: white;
+	margin-bottom: 20px;
+
+
+}
+.containerr label{
+	font-weight: bold;
+	padding-top: 5px;
+
+}
+.formur{
+	width: 310px;
+	height: 400px;
+}
+.formul button[type='submit']{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+	background-color: transparent;
+	width: 250px;
+	height: 40px;
+	outline:none;
+	border: none;
+	border-bottom: white;
+	margin-bottom: 20px;
+
+}
+.formul button[type = 'submit']:hover{
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	border-radius: 15px;
+	border-color: #60f15f;
+	width: 200px;
+	height: 40px;
+}
+#formur button[type = 'submit']:hover{
+	color: white;
+	font-size: 18px;
+	border: 2px solid;
+	border-radius: 15px;
+	border-color: #60f15f;
+	width: 200px;
+	height: 40px;
+	
+
+}
+.alert2{
+	font-size: 0.004rem;
+	color: red;
+}
+
+.containerr dd{
+	margin: 0px;
+}
+.containerr h4{
+	font-size: 30px;
+	margin: 0px;
+	padding: 0px;
+	padding-bottom: 20px;
+}
+.containerr input[type='email'], input[type='password'],input[type='text']{
+
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid;
+	border-color: white;
+	color: white;
+	outline: none;
+
+}
+
+.containerr input[type='email']:hover, input[type='password']:hover{
+	font-weight: bold;
+}
+
+nav{
+	height: 80px;
+	
+	background: #032758;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0rem calc((50vw-1300vw)/2);
+}
+#Logo{
+	margin-left: 10px;
+	color: white;
+	font-size: 1.5rem;
+	font-family: sans-serif;
+
+
+}
+a{
+	margin-right: 10px;
+	color: white;
+	font-size: 1.1rem;
+	font-style: none;
+	text-decoration: none;
+}
+
+footer{
+	width: 100vw;
+	height: 80px;
+	color: white;
+	text-align: center;
+	position: absolute;
+
+	bottom: -90%;
+	background-color: #0d0f13;
+}
+
+footer div{
+	padding:20px;
+}

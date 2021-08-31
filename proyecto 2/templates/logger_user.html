@@ -1,0 +1,38 @@
+{% extends  'base/base.html' %}
+
+{%block title%} {{title}} {%endblock%}
+
+{%block content%}
+
+	
+	<nav id="Barra">
+		<div id = "Logo"><b>Help Me!</b></div>
+		<div id = "bar">
+			<a href="" >Contact</a>
+			<a href="" >About</a>
+			<a href="" >Social Network</a>
+		</div>
+	</nav>
+ 	<div class="containerr", id="contenedor">	
+		
+		{%from "macro.html" import renderform%}
+		<br>
+		<form class = "formul" method = "POST" id = "formul1">
+			<input type="hidden" name="csrf_token" value = "{{ csrf_token() }}">
+
+			<h4>Login</h4>
+
+			{{renderform(form.email, class = 'form_style', id = 'render1')}}
+			<br>
+			{{renderform(form.password, class = 'form_style')}}
+			<br>
+			<br>
+
+
+			<button type = "submit" class="btn btn-primary">Login</button>
+		</form>
+
+	</div>
+
+
+{%endblock%}
